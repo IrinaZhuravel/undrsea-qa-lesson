@@ -13,11 +13,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dangrek&family=Inter&family=Playfair+Display&family=Roboto+Mono&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Dangrek&family=Inter&family=Playfair+Display&family=Roboto+Mono&family=Pacifico&family=Caveat:wght@400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
     <title>UNDR SEA</title>
   </head>
   <body>
@@ -26,7 +27,7 @@
         >UNDR <br />
         SEA</a
       >
-      <div class="wrapper">
+      <div class="header-container">
         <nav>
           <ul>
             <li>Головна</li>
@@ -75,7 +76,36 @@
       </div>
     </section>
 
-    <section class="sealinh"></section>
+    <section class="sealife">
+      <div class="sealife-container">
+        <h2 class="sealife-header">Морські <span>жителі</span></h2>
+        <ul class="sealife-list">
+          <li class="sealife-item">
+            <div class="sealife-item-info">
+              <h3 class="sealife-item-title octo-title">Восьминоги</h3>
+              <p class="sealife-item-descr octo-descr">
+                Восьминоги (Octopoda) є цікавими і загадковими мешканцями підводного світу. Вони виділяються своєю унікальною анатомією та
+                здібностями, що робить їх цікавими об'єктами дослідження для морських біологів та природолюбів
+              </p>
+              <button type="button" class="sealife-item-btn octo-btn">Більше</button>
+            </div>
+            <img src="./img/octopus.png" alt="octopus" class="sealife-img octo-img" />
+          </li>
+          <li class="sealife-item sealife-item-reverse">
+            <div class="sealife-item-info">
+              <h3 class="sealife-item-title cuttle-title">Каракатиці</h3>
+              <p class="sealife-item-descr cuttle-descr">
+                Каракатиці - загін молюсків з класу головоногих. Вони живуть переважно у теплих морях, поблизу берегів. Каракатиці вміють плавати, але
+                зазвичай тримаються на дні, підстерігаючи свій видобуток.
+              </p>
+              <button type="button" class="sealife-item-btn cuttle-btn">Більше</button>
+            </div>
+            <img src="./img/cuttlefish.jpg" alt="cuttlefish" class="sealife-img cuttlefish-img" />
+          </li>
+        </ul>
+        <button class="sealife-btn">More</button>
+      </div>
+    </section>
     <script src="./js/script.js"></script>
   </body>
 </html>

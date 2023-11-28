@@ -4,6 +4,11 @@ body {
   font-family: "Playfair Display", serif;
   font-family: "Dangrek", sans-serif;
   font-family: "Roboto Mono", monospace;
+  font-family: "Pacifico", cursive;
+  font-family: "Caveat", cursive;
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -82,11 +87,6 @@ nav {
 
 /* -----undrwater------ */
 
-.underwater {
-  background: url(../img/bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 .underwater-container {
   padding: 60px 15px;
 }
@@ -137,132 +137,75 @@ nav {
   color: rgba(0, 106, 160, 0.24);
 }
 
-@media screen and (min-width: 768px) {
-  .wrapper {
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-  }
+/* ----- Sea life ----- */
+.sealife-container {
+  padding: 0 15px 60px 15px;
+}
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    background: linear-gradient(180deg, #000e31, rgba(0, 14, 49, 0));
-    color: #fff;
-    font-size: 24px;
-    font-family: "Roboto mono";
-  }
+.sealife-header {
+  color: #fff;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.sealife-list {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.79) -3.56%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 10px 4px 31px -11px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.sealife-img {
+  width: 100%;
+  height: 300px;
+}
+.sealife-item-info {
+  padding: 30px;
+  text-align: right;
+}
+.sealife-item-title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Playfair Display";
+  color: #fff;
+}
 
-  nav {
-    display: block;
-  }
+.sealife-item-descr {
+  color: #fff;
 
-  nav ul {
-    display: flex;
-    padding: 0;
-  }
+  font-family: Inter;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: left;
+}
 
-  nav li {
-    margin-right: 20px;
-    cursor: pointer;
-  }
+.sealife-item-btn {
+  margin-top: 30px;
+  background-color: inherit;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 12px 24px;
+  color: #d0f1ff;
+  cursor: pointer;
+}
+.cuttlefish-img {
+  border-radius: 0 0 40px 40px;
+}
 
-  nav li:first-child {
-    margin-top: 7px;
-    margin-right: 95px;
-  }
+.sealife-btn {
+  color: #9fe2ff;
 
-  nav li:nth-child(2) {
-    margin-right: 75px;
-  }
-
-  nav li:nth-child(3) {
-    margin-top: 18px;
-    margin-right: 114px;
-  }
-
-  nav li:last-child {
-    margin-top: 14px;
-  }
-
-  nav .logo {
-    display: block;
-    transform: scale(1.2) translateY(4px);
-  }
-
-  .burger-icon,
-  .mobile-menu,
-  .logo {
-    display: none;
-  }
-
-  .hero {
-    padding: 258px 20px 540px 20px;
-    margin-top: -60px;
-    color: #fff;
-    font-size: 96px;
-  }
-  .hero span {
-    color: #6400e3;
-  }
-  /* ------undrwater ------- */
-  .undrwater-info {
-    border-radius: 100px 0px 0px 100px;
-    background: linear-gradient(90deg, rgba(0, 106, 160, 0.24) -3.56%, rgba(255, 255, 255, 0) 100%);
-    display: flex;
-    flex-direction: row;
-  }
-
-  .underwater-container {
-    padding: 70px;
-    margin: auto;
-  }
-  .underwater-title {
-    color: #fff;
-    text-align: center;
-    font-family: Playfair Display;
-    font-size: 60px;
-    margin-bottom: 77px;
-  }
-
-  .underwater-info-pic {
-    width: 550px;
-    border-radius: 100px 0 0 100px;
-  }
-
-  .undrwater-info-container {
-    padding: 30px;
-    color: #79b7d2;
-    font-family: Inter;
-    font-size: 20px;
-    text-align: right;
-  }
-
-  .undrwater-info-title {
-    margin-bottom: 60px;
-    font-size: 30px;
-    text-align: start;
-    color: #fff;
-  }
-  .underwater-info-descr {
-    text-align: left;
-  }
-  .underwater button {
-    margin-top: 60px;
-    background-color: inherit;
-    border-radius: 20px;
-    border: 2px solid #fff;
-    padding: 12px 24px 12px 100px;
-    color: #d0f1ff;
-    cursor: pointer;
-  }
-  .underwater button:hover,
-  .underwater button:focus {
-    background: #d0f1ff;
-    color: rgba(0, 106, 160, 0.24);
-  }
+  font-family: Inter;
+  font-size: 36px;
+  margin-top: 30px;
+  background: inherit;
+  border-radius: 30px;
+  border: 10px solid #00ff38;
+  /* #00FF38, #FF0000, #FA00FF */
+  padding: 20px 40px;
+}
+.sealife {
+  text-align: center;
 }

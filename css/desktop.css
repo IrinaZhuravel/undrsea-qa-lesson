@@ -1,0 +1,214 @@
+@media screen and (min-width: 768px) {
+  .header-container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: linear-gradient(180deg, #000e31, rgba(0, 14, 49, 0));
+    color: #fff;
+    font-size: 24px;
+    font-family: "Roboto mono";
+  }
+
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    display: flex;
+    padding: 0;
+  }
+
+  nav li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  nav li:first-child {
+    margin-top: 7px;
+    margin-right: 95px;
+  }
+
+  nav li:nth-child(2) {
+    margin-right: 75px;
+  }
+
+  nav li:nth-child(3) {
+    margin-top: 18px;
+    margin-right: 114px;
+  }
+
+  nav li:last-child {
+    margin-top: 14px;
+  }
+
+  nav .logo {
+    display: block;
+    transform: scale(1.2) translateY(4px);
+  }
+
+  .burger-icon,
+  .mobile-menu,
+  .logo {
+    display: none;
+  }
+
+  .hero {
+    padding: 258px 20px 540px 20px;
+    margin-top: -60px;
+    color: #fff;
+    font-size: 96px;
+  }
+  .hero span {
+    color: #6400e3;
+  }
+  /* ------undrwater ------- */
+  .undrwater-info {
+    border-radius: 100px 0px 0px 100px;
+    background: linear-gradient(90deg, rgba(0, 106, 160, 0.24) -3.56%, rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .underwater-container {
+    padding: 70px;
+    width: 1400px;
+    margin: auto;
+  }
+  .underwater-title {
+    color: #fff;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 60px;
+    margin-bottom: 77px;
+  }
+
+  .underwater-info-pic {
+    width: 550px;
+    border-radius: 100px 0 0 100px;
+  }
+
+  .undrwater-info-container {
+    padding: 30px;
+    color: #79b7d2;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .undrwater-info-title {
+    margin-bottom: 60px;
+    font-size: 30px;
+    text-align: start;
+    color: #fff;
+  }
+  .underwater-info-descr {
+    text-align: left;
+  }
+  .underwater button {
+    margin-top: 60px;
+    background-color: inherit;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    padding: 12px 24px 12px 100px;
+    color: #d0f1ff;
+    cursor: pointer;
+  }
+  .underwater button:hover,
+  .underwater button:focus {
+    background: #d0f1ff;
+    color: rgba(0, 106, 160, 0.24);
+  }
+
+  /* -----sea life------ */
+  .sealife-container {
+    /* width: 1400px; */
+    margin: auto;
+    padding: 0 40px 40px;
+  }
+  .sealife-header {
+    font-size: 60px;
+    margin-bottom: 0;
+    /* z-index: 2;
+    transform: translateY(10px); */
+  }
+  .sealife span {
+    margin-left: 100px;
+  }
+  .sealife-list {
+    flex-direction: row;
+    border-radius: 100px;
+    background: linear-gradient(-90deg, rgba(255, 0, 0, 0.79) -3.56%, rgba(255, 255, 255, 0) 100%);
+  }
+  .sealife-item {
+    display: flex;
+  }
+  .sealife-item-reverse {
+    flex-direction: row-reverse;
+  }
+  .sealife-img {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sealife-item-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .cuttle-title {
+    text-align: left;
+  }
+  .octo-descr {
+    color: #000;
+    font-family: Source Serif Pro;
+    font-size: 22px;
+    margin-bottom: 100px;
+  }
+  .octo-btn {
+    border-radius: 20px;
+    background: #5faee7;
+    color: #fff;
+
+    font-family: Pacifico;
+    font-size: 24px;
+    width: 100%;
+    border: none;
+    padding: 17px 45px;
+    text-align: left;
+  }
+  .octo-img {
+    border-radius: 100px 0 0 100px;
+    transform: scaleY(1.05) translateY(-10px);
+  }
+  .cuttlefish-img {
+    transform: scaleX(-1);
+    width: 341px;
+  }
+  .cuttle-descr {
+    color: #fff;
+
+    font-family: Inter;
+    font-size: 25px;
+    margin-bottom: 100px;
+  }
+  .cuttle-btn {
+    color: #fff;
+
+    font-family: Caveat;
+    font-size: 24px;
+    border-radius: 20px;
+    background: #e6e6e6;
+    border: none;
+    width: 100%;
+    padding: 20px 40px;
+  }
+}
