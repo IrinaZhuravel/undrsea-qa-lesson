@@ -137,8 +137,9 @@
   .sealife-header {
     font-size: 60px;
     margin-bottom: 0;
-    /* z-index: 2;
-    transform: translateY(10px); */
+    z-index: 2;
+
+    transform: translateY(10px);
   }
   .sealife span {
     margin-left: 100px;
@@ -171,7 +172,6 @@
     color: #000;
     font-family: Source Serif Pro;
     font-size: 22px;
-    margin-bottom: 100px;
   }
   .octo-btn {
     border-radius: 20px;
@@ -188,6 +188,7 @@
   .octo-img {
     border-radius: 100px 0 0 100px;
     transform: scaleY(1.05) translateY(-10px);
+    z-index: 1;
   }
   .cuttlefish-img {
     transform: scaleX(-1);
@@ -198,7 +199,6 @@
 
     font-family: Inter;
     font-size: 25px;
-    margin-bottom: 100px;
   }
   .cuttle-btn {
     color: #fff;
@@ -210,5 +210,10 @@
     border: none;
     width: 100%;
     padding: 20px 40px;
+  }
+  .sealife-item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }

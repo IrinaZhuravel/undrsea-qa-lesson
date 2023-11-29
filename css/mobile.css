@@ -202,8 +202,10 @@ nav {
   margin-top: 30px;
   background: inherit;
   border-radius: 30px;
-  border: 10px solid #00ff38;
-  /* #00FF38, #FF0000, #FA00FF */
+  border: 10px solid;
+  border-image: linear-gradient(to right, #00ff38, #ff0000, #fa00ff);
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #00ff38, #ff0000, #fa00ff);
   padding: 20px 40px;
 }
 .sealife {
