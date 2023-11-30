@@ -187,8 +187,8 @@
   }
   .octo-img {
     border-radius: 100px 0 0 100px;
-    transform: scaleY(1.05) translateY(-10px);
-    z-index: 1;
+    /* transform: scaleY(1.05); */
+    /* z-index: 1; */
   }
   .cuttlefish-img {
     transform: scaleX(-1);
@@ -215,5 +215,70 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .turtle-container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  .turtle-header {
+    font-size: 65px;
+    margin-bottom: 77px;
+  }
+  .turtle-content {
+    display: flex;
+  }
+  .turtle-img {
+    width: clamp(150px, 50%, 450px);
+    height: 552px;
+  }
+  .turtle-img:first-of-type {
+    border-radius: 100px 0 0 100px;
+    transform: scaleY(1.1);
+  }
+  .turtle-img:last-of-type {
+    border-radius: 0 0 100px 0;
+    transform: scaleY(1.2) translateY(-25px);
+  }
+  .turtle-content {
+    border-radius: 100px;
+    background: linear-gradient(90deg, rgba(112, 255, 0, 0.85) -3.56%, rgba(255, 255, 255, 0) 100%);
+  }
+  .turtle-info {
+    width: clamp(150px, 50%, 300px);
+  }
+  .turtle-info-header {
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+  .turtle-info-descr {
+    font-size: 20px;
+    z-index: 3;
+    transform: scaleX(2) translateX(10px);
+  }
+  .seaweed-content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1170px;
+    margin: auto;
+  }
+  .seaweed-info {
+    padding: 70px;
+  }
+  .seaweed-img {
+    width: clamp(150px, 50%, 600px);
+    border-radius: 100px 100px 100px 0;
+  }
+
+  .seaweed--info-header {
+    font-size: 30px;
+  }
+  .seaweed-info-descr {
+    font-size: 20px;
+  }
+  .seaweed-content {
+    border-radius: 100px;
+  }
+  .seaweed-dec {
+    display: block;
   }
 }

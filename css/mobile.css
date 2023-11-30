@@ -1,11 +1,7 @@
 body {
   margin: 0;
-  font-family: "Inter", sans-serif;
-  font-family: "Playfair Display", serif;
-  font-family: "Dangrek", sans-serif;
-  font-family: "Roboto Mono", monospace;
-  font-family: "Pacifico", cursive;
-  font-family: "Caveat", cursive;
+  font-family: "Inter", "Playfair Display", "Dangrek", "Roboto Mono", "Pacifico", "Caveat", "Source Serif Pro", "Anonymous Pro", sans-serif, serif,
+    monospace, cursive;
   background: url(../img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -210,4 +206,90 @@ nav {
 }
 .sealife {
   text-align: center;
+}
+.turtle-container {
+  padding: 0 15px 60px 15px;
+}
+.turtle-header {
+  color: #fff;
+  font-family: Caveat;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.turtle-img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+.turtle-img:first-of-type {
+  border-radius: 30px 30px 0 0;
+}
+.turtle-img:last-of-type {
+  border-radius: 0 0 30px 30px;
+}
+.turtle-content {
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(112, 255, 0, 0.85) -3.56%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 4px 73px 0px rgba(0, 0, 0, 0.25);
+}
+.turtle-info {
+  padding: 30px;
+  text-align: left;
+}
+.turtle-info-header {
+  color: #c50000;
+  font-family: Playfair Display;
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.turtle-info-descr {
+  color: #fff;
+  font-family: "Source Serif Pro";
+  font-size: 14px;
+}
+
+.seaweed-container {
+  padding: 0 15px 60px 15px;
+}
+.seaweed-header {
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: Anonymous Pro;
+  font-size: 36px;
+  text-align: center;
+}
+.seaweed-content {
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 30px;
+}
+.seaweed-img {
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+}
+.seaweed-info {
+  padding: 30px;
+}
+.seaweed-info-header {
+  color: #a00;
+
+  font-family: Inter;
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.seaweed-info-descr {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+}
+.seaweed-dec {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/seaweed-dec.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+  margin: 80px 15px;
 }
