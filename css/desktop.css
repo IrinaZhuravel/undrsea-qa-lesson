@@ -32,21 +32,21 @@
     cursor: pointer;
   }
 
-  nav li:first-child {
+  .header-nav:first-of-type {
     margin-top: 7px;
     margin-right: 95px;
   }
 
-  nav li:nth-child(2) {
+  .header-nav:nth-of-type(2) {
     margin-right: 75px;
   }
 
-  nav li:nth-child(3) {
+  .header-nav:nth-of-type(3) {
     margin-top: 18px;
     margin-right: 114px;
   }
 
-  nav li:last-child {
+  .header-nav:last-of-type {
     margin-top: 14px;
   }
 
@@ -336,5 +336,41 @@
   .form-btn:last-of-type {
     background: linear-gradient(90deg, #2f647b 0%, #5d7b88 48.44%, #ff1e54 100%);
     font-size: 40px;
+  }
+  footer {
+    padding: 80px;
+  }
+  .footer-container {
+    justify-content: flex-start;
+  }
+  footer .logo {
+    display: block;
+    width: 300px;
+    height: 300px;
+    font-size: 64px;
+    padding-top: 90px;
+    color: #fff;
+    margin-right: 125px;
+  }
+  footer nav ul {
+    flex-direction: column;
+  }
+  .footer-nav-link {
+    font-size: 40px;
+  }
+  .footer-nav:first-of-type {
+    margin-left: 179px;
+    margin-bottom: 53px;
+  }
+  .footer-nav:nth-of-type(2) {
+    margin-left: 287px;
+    margin-bottom: 53px;
+  }
+  .footer-nav:nth-of-type(3) {
+    margin-left: 118px;
+    margin-bottom: 70px;
+  }
+  .footer-nav:last-of-type {
+    margin-left: 383px;
   }
 }
