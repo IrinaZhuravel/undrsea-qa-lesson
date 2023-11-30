@@ -293,3 +293,67 @@ nav {
   display: none;
   margin: 80px 15px;
 }
+.feedback-contaier {
+  padding: 0 15px 60px 15px;
+}
+.feedback-header {
+  font-family: Playfair Display;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.feedback-header br {
+  display: none;
+}
+.feedback-form {
+  margin: auto;
+  padding: 20px;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.form-input label {
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: Source Serif Pro;
+  font-size: 28px;
+}
+.form-input input,
+.form-input textarea {
+  border: 1px solid #fff;
+  background: rgba(23, 148, 173, 0.58);
+  padding: 10px;
+  color: #fff;
+  font-family: Source Serif Pro;
+}
+.form-input input::placeholder,
+.form-input textarea::placeholder {
+  color: #fff;
+}
+
+.form-btns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.form-btn {
+  width: 100%;
+  background: linear-gradient(90deg, #24a8e0 0%, #81daff 48.44%, #24a8e0 100%);
+  color: #fff;
+
+  font-family: Pacifico;
+  font-size: 18px;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+.form-btn:hover,
+.form-btn:focus {
+  background: linear-gradient(90deg, #2f647b 0%, #5d7b88 48.44%, #ff1e54 100%);
+}
+br {
+  display: none;
+}

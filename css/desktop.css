@@ -281,4 +281,60 @@
   .seaweed-dec {
     display: block;
   }
+
+  .feedback-contaier {
+    width: 900px;
+    margin: auto;
+  }
+  .feedback-header {
+    font-size: 70px;
+    text-align: left;
+    margin-left: 300px;
+  }
+  .feedback-header br {
+    display: block;
+  }
+  .feedback-header span {
+    font-size: 96px;
+  }
+  .feedback-form {
+    margin-left: 200px;
+  }
+  .form-input {
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+  .form-input label {
+    font-size: 48px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    /* text-align: right; */
+  }
+  br {
+    display: block;
+  }
+  .form-input textarea {
+    width: 100%;
+    background: #ffd2f5;
+    border-radius: 7px;
+  }
+  .form-input input {
+    width: 76%;
+    border-color: #000;
+  }
+  .form-btns {
+    margin-top: -30px;
+  }
+  .form-btn:first-of-type {
+    width: 900px;
+    text-align: left;
+    padding: 18px 0 10px 40px;
+    font-size: 40px;
+  }
+  .form-btn:last-of-type {
+    background: linear-gradient(90deg, #2f647b 0%, #5d7b88 48.44%, #ff1e54 100%);
+    font-size: 40px;
+  }
 }
